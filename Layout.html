@@ -1,0 +1,133 @@
+<html>
+    <title>Layout Page</title>
+    <head></head>
+    <style>
+        header{
+            height:200px;
+            display:flex;
+            flex-direction:row;
+             border :1px solid black;
+         }
+         .left{
+            height:inherit;/*parent height header it will denote*/
+            width:20%;
+            background-image: url("logo1.jpg");
+            background-size: cover;
+         }
+         .right{
+            height:inherit;
+            width:80%;
+            background-color: grey;
+            
+           
+         }
+         h1{
+            text-align:center;
+            text-shadow:0px 1px  5px rgb(82, 235, 125);
+         }
+         h2{
+            text-align: center;
+            text-shadow:0px 1px  5px rgb(82, 235, 125);
+         }
+     nav{
+    height:40px;
+    flex-direction: row;
+    display:flex;
+    background-color:whitesmoke;
+    
+    }
+    .n{
+        height:inherit;
+        width:22%;
+        background-color: gray;
+        display:flex;
+        justify-content: center;
+        
+        align-items: center;
+    }
+    .n:hover{
+        background-color: black;
+        transition: 3s;
+    }
+    a{
+        color:rgb(82, 235, 125);
+        text-decoration: none;
+        text-align:center;
+        font-size: 18px;
+     }
+     section{
+        height:400px;
+        display:flex;
+        flex-direction: row;
+     }
+     .s1{
+        height:inherit;
+        width:20%;
+        background-color: rgb(144, 237, 144);
+     }
+     .s2{
+        height:inherit;
+        width:60%;
+        background-color: rgb(34, 189, 34);
+        
+     }
+     .s3{
+        height:inherit;
+        width:20%;
+        background-color: rgb(34, 189, 34);
+     }
+    
+     marquee{
+        height:inherit;
+        text-align: center;
+     }
+     footer{
+        height:100px;
+        width:100%;
+        background-color: aliceblue;
+        text-align: center;
+     }
+    </style>
+    <body>
+        <header>
+            <div class="left"></div>
+            <div class="right">
+                <h1>DEEPANAA FIRM</h1>
+                <h2>FLYER</h2>
+            </div>
+        </header>
+        <nav>
+            <div class="n">
+                <a href="">Home</a>
+            </div>
+            <div class="n">
+                <a href="">About</a>
+            </div>
+            <div class="n">
+                <a href="">Contact-us</a>
+            </div>
+            <div class="n">
+                <a href="">Feedback</a>
+            </div>
+            <div class="n">
+                <a href="">Remainder</a>
+            </div>
+        </nav>
+        <section>
+            <div class="s1">
+                <marquee direction="up" onmouseout="this.start()" onmouseover="this.stop()">
+                    <h3>City</h3>
+                    <h3>Branch</h3>
+                    <h3>More Details</h3>
+                </marquee>
+            </div>
+            <div class="s2"><img src="c2.jpg" alt="Image not found"></div>
+            <div class="s3"></div>
+            <div class="r">It sounds like you're looking for feedback on your company's profile. If you can share the profile or provide details about it, I'd be happy to help review and offer constructive feedback.</div>
+            <div class="r1"></div>
+            <div class="r2" ></div>
+           
+        </section>
+        
+    </body>
+</html>
